@@ -1,11 +1,13 @@
 const parseCode = (str) => {
   // your code here
-	let res=str.split("000");
+	let [firstName, lastName, id]=str.split("000");
 	
-	return res;
+	return { firstName, lastName, id };
 };
 
 // Do not change the code below
 const str = prompt("Enter str: ");
 alert(JSON.stringify(parseCode(str)));
+
+
 
