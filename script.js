@@ -20,6 +20,7 @@
 	while(str.charAt(i)==="0"){
 		i++;
 	}
+		
 	while(i<str.length && str.charAt(i)!=="0"){
 		id+=str.charAt(i);
 		i++;
